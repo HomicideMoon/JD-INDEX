@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+    font-family: 'Microsoft Yahei';
+    background: #f6f6f6;
+    text-align:center;
+}
+
+a,p,span{
+    text-decoration: none;
+    font-size: 12px;
+    color: #999;
+}
+
+a img{
+    border: none;
+}
+
+@mixin font($font,$color: #333){
+    font-size: $font;
+    color: $color;
+}
+
+input{
+    border: none;
+    background: none;
+    outline: none;
+}
+
+ul,li{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
